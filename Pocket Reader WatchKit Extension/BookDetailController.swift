@@ -9,7 +9,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class BookDetailController: WKInterfaceController {
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)

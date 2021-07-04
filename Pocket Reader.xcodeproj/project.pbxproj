@@ -16,7 +16,7 @@
 		F0B8A945244A1103008A8E58 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B8A943244A1103008A8E58 /* Interface.storyboard */; };
 		F0B8A947244A1104008A8E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B8A946244A1104008A8E58 /* Assets.xcassets */; };
 		F0B8A94E244A1104008A8E58 /* Pocket Reader WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F0B8A94D244A1104008A8E58 /* Pocket Reader WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F0B8A953244A1104008A8E58 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8A952244A1104008A8E58 /* InterfaceController.swift */; };
+		F0B8A953244A1104008A8E58 /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8A952244A1104008A8E58 /* BookDetailController.swift */; };
 		F0B8A955244A1104008A8E58 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8A954244A1104008A8E58 /* ExtensionDelegate.swift */; };
 		F0B8A957244A1105008A8E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B8A956244A1105008A8E58 /* Assets.xcassets */; };
 		F0B8A967244A1138008A8E58 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8A966244A1138008A8E58 /* BooksViewController.swift */; };
@@ -83,7 +83,7 @@
 		F0B8A946244A1104008A8E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0B8A948244A1104008A8E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0B8A94D244A1104008A8E58 /* Pocket Reader WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pocket Reader WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0B8A952244A1104008A8E58 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F0B8A952244A1104008A8E58 /* BookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
 		F0B8A954244A1104008A8E58 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		F0B8A956244A1105008A8E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0B8A958244A1105008A8E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				F0B8A974244B03E6008A8E58 /* StarterInterfaceController.swift */,
-				F0B8A952244A1104008A8E58 /* InterfaceController.swift */,
+				F0B8A952244A1104008A8E58 /* BookDetailController.swift */,
 				F0B8A976244B0627008A8E58 /* MyBookRowController.swift */,
 				F0B8A954244A1104008A8E58 /* ExtensionDelegate.swift */,
 				F0B8A956244A1105008A8E58 /* Assets.xcassets */,
@@ -356,7 +356,7 @@
 				F0B8A975244B03E6008A8E58 /* StarterInterfaceController.swift in Sources */,
 				F0B8A977244B0627008A8E58 /* MyBookRowController.swift in Sources */,
 				F0B8A955244A1104008A8E58 /* ExtensionDelegate.swift in Sources */,
-				F0B8A953244A1104008A8E58 /* InterfaceController.swift in Sources */,
+				F0B8A953244A1104008A8E58 /* BookDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
