@@ -72,13 +72,16 @@
             </objects>
             <point key="canvasLocation" x="34" y="31"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Description Interface Controller-->
         <scene sceneID="lt6-sz-1UG">
             <objects>
-                <controller id="YaX-ok-yjm">
+                <controller id="YaX-ok-yjm" customClass="DescriptionInterfaceController" customModule="Pocket_Reader_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Label" id="ihn-tH-21L"/>
                     </items>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="ihn-tH-21L" id="ghQ-He-bzd"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="319" y="-83"/>
