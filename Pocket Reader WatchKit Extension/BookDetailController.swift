@@ -32,8 +32,7 @@ class BookDetailController: WKInterfaceController {
         super.didDeactivate()
     }
     
-    override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+    override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
         return book.bookDescription
     }
-
 }
