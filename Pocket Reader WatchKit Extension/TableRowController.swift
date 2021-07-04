@@ -8,5 +8,8 @@
 import WatchKit
 
 class TableRowController: NSObject {
-
+    
+    @IBOutlet var nameLabel: WKInterfaceLabel!
+    @IBOutlet var authorLabel: WKInterfaceLabel!
+ 
 }

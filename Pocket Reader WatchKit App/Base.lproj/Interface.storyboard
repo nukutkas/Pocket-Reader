@@ -126,7 +126,7 @@
                     <items>
                         <table alignment="left" id="Aon-ZV-dc9">
                             <items>
-                                <tableRow id="mgA-qT-Vcd">
+                                <tableRow identifier="bookRow" id="mgA-qT-Vcd" customClass="TableRowController" customModule="Pocket_Reader_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="vpV-tU-PY1">
                                         <items>
                                             <label alignment="left" text="Label" id="i3N-Z3-T3X"/>
@@ -134,7 +134,7 @@
                                         </items>
                                     </group>
                                 </tableRow>
-                                <tableRow id="zdw-uI-0fO">
+                                <tableRow identifier="headerRow" id="zdw-uI-0fO" customClass="HeaderRowController" customModule="Pocket_Reader_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="10" id="Un4-dA-YTM">
                                         <items>
                                             <imageView width="24" height="24" alignment="left" verticalAlignment="center" image="children" id="aGf-JL-Bp3">
