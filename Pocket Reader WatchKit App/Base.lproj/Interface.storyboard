@@ -127,10 +127,24 @@
                         <table alignment="left" id="Aon-ZV-dc9">
                             <items>
                                 <tableRow id="mgA-qT-Vcd">
-                                    <group key="rootItem" width="1" alignment="left" id="vpV-tU-PY1"/>
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="vpV-tU-PY1">
+                                        <items>
+                                            <label alignment="left" text="Label" id="i3N-Z3-T3X"/>
+                                            <label alignment="left" text="Label" id="iK2-h9-KgB"/>
+                                        </items>
+                                    </group>
                                 </tableRow>
                                 <tableRow id="zdw-uI-0fO">
-                                    <group key="rootItem" width="1" alignment="left" id="Un4-dA-YTM"/>
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="10" id="Un4-dA-YTM">
+                                        <items>
+                                            <imageView width="24" height="24" alignment="left" verticalAlignment="center" image="children" id="aGf-JL-Bp3">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                            <label alignment="left" text="Детские книги" numberOfLines="0" id="CeV-Xg-YVK">
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>
@@ -142,6 +156,7 @@
     </scenes>
     <resources>
         <image name="444" width="207.5" height="250"/>
+        <image name="children" width="64" height="64"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

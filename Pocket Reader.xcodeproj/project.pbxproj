@@ -10,6 +10,8 @@
 		E5215B57269203D800EA1F59 /* BookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8A96C244A117F008A8E58 /* BookItem.swift */; };
 		E5215B5B26920C5F00EA1F59 /* DescriptionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5215B5A26920C5F00EA1F59 /* DescriptionInterfaceController.swift */; };
 		E5215B5D2692153400EA1F59 /* BooksInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5215B5C2692153400EA1F59 /* BooksInterfaceController.swift */; };
+		E5215B5F26921C3600EA1F59 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5215B5E26921C3600EA1F59 /* TableRowController.swift */; };
+		E5215B6126921C5200EA1F59 /* HeaderRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5215B6026921C5200EA1F59 /* HeaderRowController.swift */; };
 		F0B8A92E244A1101008A8E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8A92D244A1101008A8E58 /* AppDelegate.swift */; };
 		F0B8A930244A1101008A8E58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8A92F244A1101008A8E58 /* SceneDelegate.swift */; };
 		F0B8A935244A1101008A8E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B8A933244A1101008A8E58 /* Main.storyboard */; };
@@ -76,6 +78,8 @@
 /* Begin PBXFileReference section */
 		E5215B5A26920C5F00EA1F59 /* DescriptionInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionInterfaceController.swift; sourceTree = "<group>"; };
 		E5215B5C2692153400EA1F59 /* BooksInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksInterfaceController.swift; sourceTree = "<group>"; };
+		E5215B5E26921C3600EA1F59 /* TableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
+		E5215B6026921C5200EA1F59 /* HeaderRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderRowController.swift; sourceTree = "<group>"; };
 		F0B8A92A244A1101008A8E58 /* Pocket Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B8A92D244A1101008A8E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0B8A92F244A1101008A8E58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 				E5215B5C2692153400EA1F59 /* BooksInterfaceController.swift */,
 				F0B8A952244A1104008A8E58 /* BookDetailController.swift */,
 				F0B8A976244B0627008A8E58 /* MyBookRowController.swift */,
+				E5215B5E26921C3600EA1F59 /* TableRowController.swift */,
+				E5215B6026921C5200EA1F59 /* HeaderRowController.swift */,
 				E5215B5A26920C5F00EA1F59 /* DescriptionInterfaceController.swift */,
 				F0B8A954244A1104008A8E58 /* ExtensionDelegate.swift */,
 				F0B8A956244A1105008A8E58 /* Assets.xcassets */,
@@ -367,6 +373,8 @@
 				F0B8A955244A1104008A8E58 /* ExtensionDelegate.swift in Sources */,
 				E5215B5D2692153400EA1F59 /* BooksInterfaceController.swift in Sources */,
 				F0B8A953244A1104008A8E58 /* BookDetailController.swift in Sources */,
+				E5215B5F26921C3600EA1F59 /* TableRowController.swift in Sources */,
+				E5215B6126921C5200EA1F59 /* HeaderRowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
