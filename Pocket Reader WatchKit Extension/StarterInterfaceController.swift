@@ -38,5 +38,11 @@ class StarterInterfaceController: WKInterfaceController {
     override func didDeactivate() {
         super.didDeactivate()
     }
-
+    
+    override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+        if let rowController = table.rowController(at: rowIndex) as? MyBookRowController {
+            return array[rowIndex]
+        }
+        return nil
+    }
 }

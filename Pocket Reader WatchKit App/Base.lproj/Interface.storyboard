@@ -53,6 +53,9 @@
                                             </label>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <segue destination="YaX-ok-yjm" kind="modal" id="xVX-3D-5YH"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -65,6 +68,17 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="lt6-sz-1UG">
+            <objects>
+                <controller id="YaX-ok-yjm">
+                    <items>
+                        <label alignment="left" text="Label" id="ihn-tH-21L"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="319" y="-83"/>
         </scene>
         <!--Starter Interface Controller-->
         <scene sceneID="kFF-Ae-arA">
