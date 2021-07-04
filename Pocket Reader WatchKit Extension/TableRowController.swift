@@ -9,6 +9,13 @@ import WatchKit
 
 class TableRowController: NSObject {
     
+    var book: BookItem! {
+        didSet {
+            nameLabel.setText(book.name)
+            authorLabel.setText(book.author)
+        }
+    }
+    
     @IBOutlet var nameLabel: WKInterfaceLabel!
     @IBOutlet var authorLabel: WKInterfaceLabel!
  

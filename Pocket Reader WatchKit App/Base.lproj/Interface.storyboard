@@ -110,6 +110,9 @@
                             <color key="titleColor" systemColor="darkTextColor"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="EZr-sF-0ig" kind="push" id="bJi-QB-JYZ"/>
+                            </connections>
                         </button>
                     </items>
                     <connections>
