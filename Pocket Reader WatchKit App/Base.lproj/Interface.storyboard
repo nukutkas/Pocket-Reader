@@ -81,6 +81,7 @@
                                     </group>
                                     <connections>
                                         <outlet property="nameLabel" destination="LAz-up-2lC" id="WQX-SC-WlJ"/>
+                                        <segue destination="AgC-eL-Hgc" kind="push" id="geq-yx-Wbf"/>
                                     </connections>
                                 </tableRow>
                             </items>
