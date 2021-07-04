@@ -77,7 +77,7 @@
             <objects>
                 <controller id="YaX-ok-yjm" customClass="DescriptionInterfaceController" customModule="Pocket_Reader_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Label" id="ihn-tH-21L"/>
+                        <label alignment="left" text="Label" numberOfLines="0" id="ihn-tH-21L"/>
                     </items>
                     <connections>
                         <outlet property="descriptionLabel" destination="ihn-tH-21L" id="ghQ-He-bzd"/>
@@ -117,7 +117,27 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-274" y="31"/>
+            <point key="canvasLocation" x="-256" y="-83"/>
+        </scene>
+        <!--Books Interface Controller-->
+        <scene sceneID="2wY-oz-fsm">
+            <objects>
+                <controller id="EZr-sF-0ig" customClass="BooksInterfaceController" customModule="Pocket_Reader_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Aon-ZV-dc9">
+                            <items>
+                                <tableRow id="mgA-qT-Vcd">
+                                    <group key="rootItem" width="1" alignment="left" id="vpV-tU-PY1"/>
+                                </tableRow>
+                                <tableRow id="zdw-uI-0fO">
+                                    <group key="rootItem" width="1" alignment="left" id="Un4-dA-YTM"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-256" y="219"/>
         </scene>
     </scenes>
     <resources>
