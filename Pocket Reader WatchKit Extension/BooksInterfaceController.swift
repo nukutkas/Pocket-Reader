@@ -10,6 +10,8 @@ import Foundation
 
 
 class BooksInterfaceController: WKInterfaceController {
+    
+    @IBOutlet var table: WKInterfaceTable!
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)

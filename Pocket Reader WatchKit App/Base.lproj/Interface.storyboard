@@ -133,6 +133,10 @@
                                             <label alignment="left" text="Label" id="iK2-h9-KgB"/>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="authorLabel" destination="iK2-h9-KgB" id="xMs-rt-uyY"/>
+                                        <outlet property="nameLabel" destination="i3N-Z3-T3X" id="NA0-1u-tQK"/>
+                                    </connections>
                                 </tableRow>
                                 <tableRow identifier="headerRow" id="zdw-uI-0fO" customClass="HeaderRowController" customModule="Pocket_Reader_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="10" id="Un4-dA-YTM">
@@ -145,10 +149,17 @@
                                             </label>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="image" destination="aGf-JL-Bp3" id="x9W-ag-MXH"/>
+                                        <outlet property="sectionLabel" destination="CeV-Xg-YVK" id="a9m-my-Lym"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="Aon-ZV-dc9" id="tPr-wY-dPv"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-256" y="219"/>
