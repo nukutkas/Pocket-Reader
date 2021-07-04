@@ -12,11 +12,14 @@ import Foundation
 class BookDetailController: WKInterfaceController {
     
     @IBOutlet var descriptionLabel: WKInterfaceLabel!
+    
+    var book: BookItem!
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
         if let book = context as? BookItem {
+            self.book = book
             descriptionLabel.setText(book.bookDescription)
         }
     }
@@ -27,6 +30,10 @@ class BookDetailController: WKInterfaceController {
     
     override func didDeactivate() {
         super.didDeactivate()
+    }
+    
+    override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+        return book.bookDescription
     }
 
 }
