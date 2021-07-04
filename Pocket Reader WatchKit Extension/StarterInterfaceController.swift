@@ -13,6 +13,7 @@ class StarterInterfaceController: WKInterfaceController {
     
     @IBOutlet weak var table: WKInterfaceTable!
     let array = ["first1", "first2", "first3", "first4"]
+    let books = BookItem.getBooks()
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -21,12 +22,14 @@ class StarterInterfaceController: WKInterfaceController {
     }
     
     func setupTable() {
-        table.setNumberOfRows(array.count, withRowType: "myBookRow")
+        table.setNumberOfRows(books.count, withRowType: "myBookRow")
         
         
-        for (index, item) in array.enumerated() {
+        for (index, book) in books.enumerated() {
             if let rowController = table.rowController(at: index) as? MyBookRowController {
-                rowController.nameLabel.setText(item)
+                rowController.nameLabel.setText(book.name)
+                let book = books[index]
+                rowController.book = book
             }
         }
     }
@@ -41,7 +44,7 @@ class StarterInterfaceController: WKInterfaceController {
     
     override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
         if let rowController = table.rowController(at: rowIndex) as? MyBookRowController {
-            return array[rowIndex]
+            return rowController.book
         }
         return nil
     }

@@ -65,6 +65,9 @@
                             <fontDescription key="font" type="system" pointSize="18"/>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="RVP-40-Njd" id="6xo-f8-39l"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="34" y="31"/>
