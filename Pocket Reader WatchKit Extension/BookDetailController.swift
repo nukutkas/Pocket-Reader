@@ -12,6 +12,11 @@ import Foundation
 class BookDetailController: WKInterfaceController {
     
     @IBOutlet var descriptionLabel: WKInterfaceLabel!
+    @IBOutlet var nameLabel: WKInterfaceLabel!
+    @IBOutlet var authorLabel: WKInterfaceLabel!
+    @IBOutlet var editionLabel: WKInterfaceLabel!
+    @IBOutlet var pagesLabel: WKInterfaceLabel!
+    @IBOutlet var selectButton: WKInterfaceButton!
     
     var book: BookItem!
 
