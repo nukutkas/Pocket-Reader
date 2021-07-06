@@ -92,6 +92,13 @@
             </objects>
             <point key="canvasLocation" x="319" y="-83"/>
         </scene>
+        <!--Interface Controller-->
+        <scene sceneID="zFD-4S-452">
+            <objects>
+                <controller id="ElB-MG-Q4h"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="199"/>
+        </scene>
         <!--Starter Interface Controller-->
         <scene sceneID="kFF-Ae-arA">
             <objects>
