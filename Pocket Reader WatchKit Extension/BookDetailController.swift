@@ -25,6 +25,11 @@ class BookDetailController: WKInterfaceController {
         
         if let book = context as? BookItem {
             self.book = book
+            
+            nameLabel.setText(book.name)
+            authorLabel.setText(book.author)
+            editionLabel.setText(String(book.edition))
+            pagesLabel.setText(String(book.pages))
             descriptionLabel.setText(book.bookDescription)
         }
     }
