@@ -27,6 +27,17 @@ class BooksInterfaceController: WKInterfaceController {
         map.forEach { (value) in
             print(value.value)
         }
+        
+        for (genre, books) in map {
+            addSection(genre: genre, books: books)
+        }
     }
- 
+    
+    func addSection(genre: GenreType, books: [BookItem]) {
+        let rows = table.numberOfRows
+        table.insertRows(at: NSIndexSet(index: rows) as IndexSet, withRowType: "headerRow")
+        
+        let itemRows = NSIndexSet(indexesIn: NSRange(location: rows + 1, length: books.count))
+        table.insertRows(at: itemRows as IndexSet, withRowType: "bookRow")
+    }
 }
