@@ -107,7 +107,7 @@
             <objects>
                 <controller id="ElB-MG-Q4h" customClass="ConfirmedInterfaceController" customModule="Pocket_Reader_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Label" id="dkw-wi-o3o"/>
+                        <label alignment="left" text="Label" numberOfLines="0" id="dkw-wi-o3o"/>
                         <button width="1" alignment="left" title="Выбрать книгу" id="au3-Qr-MWc">
                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
