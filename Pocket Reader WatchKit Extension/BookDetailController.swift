@@ -45,6 +45,11 @@ class BookDetailController: WKInterfaceController {
     }
     
     override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
-        return book.bookDescription
+        switch segueIdentifier {
+        case "confirmedBook":
+            return book
+        default:
+            return book.bookDescription
+        }
     }
 }
