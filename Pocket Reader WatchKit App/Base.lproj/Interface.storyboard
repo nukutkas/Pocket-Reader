@@ -139,6 +139,7 @@
                                     <connections>
                                         <outlet property="authorLabel" destination="iK2-h9-KgB" id="xMs-rt-uyY"/>
                                         <outlet property="nameLabel" destination="i3N-Z3-T3X" id="NA0-1u-tQK"/>
+                                        <segue destination="AgC-eL-Hgc" kind="push" id="jcN-7q-aWy"/>
                                     </connections>
                                 </tableRow>
                                 <tableRow identifier="headerRow" id="zdw-uI-0fO" customClass="HeaderRowController" customModule="Pocket_Reader_WatchKit_Extension">
@@ -168,6 +169,9 @@
             <point key="canvasLocation" x="-256" y="219"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="jcN-7q-aWy"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="444" width="207.5" height="250"/>
         <image name="children" width="64" height="64"/>

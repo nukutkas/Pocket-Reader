@@ -52,4 +52,20 @@ class BooksInterfaceController: WKInterfaceController {
             }
         }
     }
+    
+    override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+        
+        var pickedIndex = -1
+        var pickedBook: BookItem?
+        for (_, books) in map {
+            pickedIndex += 1
+            for book in books {
+                pickedIndex += 1
+                if rowIndex == pickedIndex {
+                    pickedBook = book
+                }
+            }
+        }
+        return pickedBook
+    }
 }
