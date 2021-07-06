@@ -69,6 +69,7 @@
                         <outlet property="authorLabel" destination="nhg-A4-JRq" id="w6v-B3-LdO"/>
                         <outlet property="descriptionLabel" destination="RVP-40-Njd" id="6xo-f8-39l"/>
                         <outlet property="editionLabel" destination="3yr-0e-AAD" id="Jvx-cp-nem"/>
+                        <outlet property="image" destination="UuG-iY-Aw1" id="nbG-TK-P0T"/>
                         <outlet property="nameLabel" destination="Ws5-x1-bpI" id="YwH-XI-Mp8"/>
                         <outlet property="pagesLabel" destination="HRf-qb-eGD" id="Gsz-fr-rwn"/>
                         <outlet property="selectButton" destination="gGN-cx-5yB" id="kcE-4m-Jsa"/>

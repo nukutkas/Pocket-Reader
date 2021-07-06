@@ -17,6 +17,7 @@ class BookDetailController: WKInterfaceController {
     @IBOutlet var editionLabel: WKInterfaceLabel!
     @IBOutlet var pagesLabel: WKInterfaceLabel!
     @IBOutlet var selectButton: WKInterfaceButton!
+    @IBOutlet var image: WKInterfaceImage!
     
     var book: BookItem!
 
@@ -31,6 +32,7 @@ class BookDetailController: WKInterfaceController {
             editionLabel.setText(String(book.edition))
             pagesLabel.setText(String(book.pages))
             descriptionLabel.setText(book.bookDescription)
+            image.setImageNamed(book.imageName)
         }
     }
     
