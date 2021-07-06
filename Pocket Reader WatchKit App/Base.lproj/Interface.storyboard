@@ -63,6 +63,9 @@
                             <color key="titleColor" systemColor="darkTextColor"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="ElB-MG-Q4h" kind="push" identifier="confirmedBook" id="UGc-HK-c8h"/>
+                            </connections>
                         </button>
                     </items>
                     <connections>
@@ -84,6 +87,10 @@
                 <controller id="YaX-ok-yjm" customClass="DescriptionInterfaceController" customModule="Pocket_Reader_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Label" numberOfLines="0" id="ihn-tH-21L"/>
+                        <button width="1" alignment="left" title="Отменить" id="2Go-n3-bNt">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="descriptionLabel" destination="ihn-tH-21L" id="ghQ-He-bzd"/>
@@ -92,10 +99,23 @@
             </objects>
             <point key="canvasLocation" x="319" y="-83"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Confirmed Interface Controller-->
         <scene sceneID="zFD-4S-452">
             <objects>
-                <controller id="ElB-MG-Q4h"/>
+                <controller id="ElB-MG-Q4h" customClass="ConfirmedInterfaceController" customModule="Pocket_Reader_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Label" id="dkw-wi-o3o"/>
+                        <button width="1" alignment="left" title="Выбрать книгу" id="au3-Qr-MWc">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                        <button width="1" alignment="left" title="Отменить" id="xkH-nb-uBh">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="308" y="199"/>
         </scene>

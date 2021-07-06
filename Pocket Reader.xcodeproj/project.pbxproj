@@ -183,10 +183,10 @@
 				E5215B5E26921C3600EA1F59 /* TableRowController.swift */,
 				E5215B6026921C5200EA1F59 /* HeaderRowController.swift */,
 				E5215B5A26920C5F00EA1F59 /* DescriptionInterfaceController.swift */,
+				E58D0E4226949AC00054F31C /* ConfirmedInterfaceController.swift */,
 				F0B8A954244A1104008A8E58 /* ExtensionDelegate.swift */,
 				F0B8A956244A1105008A8E58 /* Assets.xcassets */,
 				F0B8A958244A1105008A8E58 /* Info.plist */,
-				E58D0E4226949AC00054F31C /* ConfirmedInterfaceController.swift */,
 			);
 			path = "Pocket Reader WatchKit Extension";
 			sourceTree = "<group>";
