@@ -39,5 +39,17 @@ class BooksInterfaceController: WKInterfaceController {
         
         let itemRows = NSIndexSet(indexesIn: NSRange(location: rows + 1, length: books.count))
         table.insertRows(at: itemRows as IndexSet, withRowType: "bookRow")
+        
+        for row in rows..<table.numberOfRows {
+            let controller = table.rowController(at: row)
+            
+            if let controller = controller as? HeaderRowController {
+                controller.image.setImageNamed(genre.rawValue.lowercased())
+                controller.sectionLabel.setText(genre.descriptionForWatch())
+            } else if let controller = controller as? TableRowController {
+                let book = books[row - rows - 1]
+                controller.book = book
+            }
+        }
     }
 }
