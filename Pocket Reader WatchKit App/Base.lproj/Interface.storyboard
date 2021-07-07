@@ -75,7 +75,7 @@
                         <outlet property="image" destination="UuG-iY-Aw1" id="nbG-TK-P0T"/>
                         <outlet property="nameLabel" destination="Ws5-x1-bpI" id="YwH-XI-Mp8"/>
                         <outlet property="pagesLabel" destination="HRf-qb-eGD" id="Gsz-fr-rwn"/>
-                        <outlet property="selectButton" destination="gGN-cx-5yB" id="kcE-4m-Jsa"/>
+                        <outlet property="selectButton" destination="bmB-Hw-GW5" id="KXb-SY-DKd"/>
                     </connections>
                 </controller>
             </objects>

@@ -12,15 +12,14 @@ import Foundation
 class StarterInterfaceController: WKInterfaceController {
     
     @IBOutlet weak var table: WKInterfaceTable!
-    let array = ["first1", "first2", "first3", "first4"]
 
     func setupTable() {
         let pickedBooks = UserSettings.userBooks
         table.setNumberOfRows(pickedBooks.count, withRowType: "myBookRow")
         
-         
         for (index, book) in pickedBooks.enumerated() {
-            if let rowController = table.rowController(at: index) as? MyBookRowController {
+            if let rowController = table.rowController(at: index) as?
+                MyBookRowController {
                 rowController.nameLabel.setText(book.name)
                 let book = pickedBooks[index]
                 rowController.book = book

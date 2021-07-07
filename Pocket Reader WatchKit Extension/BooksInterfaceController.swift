@@ -23,10 +23,6 @@ class BooksInterfaceController: WKInterfaceController {
             arr.append(book)
             map[book.genre] = arr
         }
-         
-        map.forEach { (value) in
-            print(value.value)
-        }
         
         for (genre, books) in map {
             addSection(genre: genre, books: books)

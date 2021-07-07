@@ -33,6 +33,10 @@ class BookDetailController: WKInterfaceController {
             pagesLabel.setText(String(book.pages))
             descriptionLabel.setText(book.bookDescription)
             image.setImageNamed(book.imageName)
+            
+            let pickedBooks = Set(UserSettings.userBooks.lazy.map { $0.name })
+            selectButton.setHidden(pickedBooks.contains(book.name))
+            
         }
     }
     
@@ -51,5 +55,6 @@ class BookDetailController: WKInterfaceController {
         default:
             return book.bookDescription
         }
+       
     }
 }
