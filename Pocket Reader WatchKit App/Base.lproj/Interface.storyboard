@@ -162,7 +162,11 @@
                     </items>
                     <menu key="menu" id="x3X-Aa-m6U">
                         <items>
-                            <menuItem title="Delete all" icon="trash" id="iSw-Lz-CNz"/>
+                            <menuItem title="Delete all" icon="trash" id="iSw-Lz-CNz">
+                                <connections>
+                                    <action selector="deleteAll" destination="DT8-VP-Sry" id="5US-Yc-DRT"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                     <connections>
