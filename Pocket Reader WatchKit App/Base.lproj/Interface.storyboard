@@ -160,6 +160,11 @@
                             </connections>
                         </button>
                     </items>
+                    <menu key="menu" id="x3X-Aa-m6U">
+                        <items>
+                            <menuItem title="Delete all" icon="trash" id="iSw-Lz-CNz"/>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="table" destination="tV3-X5-EEd" id="OCF-QX-saE"/>
                     </connections>
@@ -215,7 +220,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jcN-7q-aWy"/>
+        <segue reference="geq-yx-Wbf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="444" width="207.5" height="250"/>
