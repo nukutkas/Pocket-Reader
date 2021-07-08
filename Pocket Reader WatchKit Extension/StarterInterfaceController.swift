@@ -42,4 +42,9 @@ class StarterInterfaceController: WKInterfaceController {
         }
         return nil
     }
+    
+    @IBAction func deleteAll() {
+        UserSettings.userBooks = []
+        setupTable()
+    }
 }
