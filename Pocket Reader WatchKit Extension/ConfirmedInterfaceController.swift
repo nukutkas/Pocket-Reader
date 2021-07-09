@@ -33,5 +33,4 @@ class ConfirmedInterfaceController: WKInterfaceController {
     @IBAction func cancelSelection() {
         pop()
     }
-    
 }
