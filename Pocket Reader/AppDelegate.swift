@@ -38,11 +38,12 @@ extension AppDelegate: WCSessionDelegate {
     }
     
     func sessionDidBecomeInactive(_ session: WCSession) {
-        <#code#>
+        print(#function)
     }
     
     func sessionDidDeactivate(_ session: WCSession) {
-        <#code#>
+        print(#function)
+        WCSession.default.activate()
     }
     
     
