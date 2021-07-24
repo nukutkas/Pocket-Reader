@@ -54,6 +54,4 @@ extension AppDelegate: WCSessionDelegate {
         print(#function)
         WCSession.default.activate()
     }
-    
-    
 }
