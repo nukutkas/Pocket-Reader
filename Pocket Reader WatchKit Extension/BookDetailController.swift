@@ -55,6 +55,5 @@ class BookDetailController: WKInterfaceController {
         default:
             return book.bookDescription
         }
-       
     }
 }
