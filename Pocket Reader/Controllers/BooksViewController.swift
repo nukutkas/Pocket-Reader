@@ -181,7 +181,16 @@ extension BooksViewController {
     }
     
     func sendSelectedBooksToWatch() {
-        
+        if WCSession.isSupported() {
+            let pickedBooks = UserSettings.userBooks
+            
+            do {
+                let dict: [String: Any] = ["books": pickedBooks]
+                try WCSession.default.updateApplicationContext(dict)
+            } catch {
+                print("Error: \(error)")
+            }
+        }
     }
     
     func configureDataSource() {
