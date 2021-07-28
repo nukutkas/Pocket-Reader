@@ -177,18 +177,20 @@ extension BooksViewController {
             let snapshot = self.snapshot()
             let pickedItems = snapshot.itemIdentifiers(inSection: .activeNow)
             UserSettings.userBooks = pickedItems
-        }
-    }
-    
-    func sendSelectedBooksToWatch() {
-        if WCSession.isSupported() {
-            let pickedBooks = UserSettings.userBooks
             
-            do {
-                let dict: [String: Any] = ["books": pickedBooks]
-                try WCSession.default.updateApplicationContext(dict)
-            } catch {
-                print("Error: \(error)")
+            sendSelectedBooksToWatch()
+        }
+        
+        func sendSelectedBooksToWatch() {
+            if WCSession.isSupported() {
+                let pickedBooks = UserSettings.userBooks
+                
+                do {
+                    let dict: [String: Any] = ["books": pickedBooks]
+                    try WCSession.default.updateApplicationContext(dict)
+                } catch {
+                    print("Error: \(error)")
+                }
             }
         }
     }
