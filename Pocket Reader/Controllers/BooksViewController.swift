@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WatchConnectivity
 
 class BooksViewController: UIViewController {
     
@@ -177,6 +178,10 @@ extension BooksViewController {
             let pickedItems = snapshot.itemIdentifiers(inSection: .activeNow)
             UserSettings.userBooks = pickedItems
         }
+    }
+    
+    func sendSelectedBooksToWatch() {
+        
     }
     
     func configureDataSource() {
