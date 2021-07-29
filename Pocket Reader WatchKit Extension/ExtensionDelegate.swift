@@ -33,6 +33,6 @@ extension ExtensionDelegate: WCSessionDelegate {
     }
     
     func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
-        <#code#>
+        print(applicationContext)
     }
 }
