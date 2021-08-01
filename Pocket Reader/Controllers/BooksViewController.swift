@@ -183,7 +183,9 @@ extension BooksViewController {
         
         func sendSelectedBooksToWatch() {
             if WCSession.isSupported() {
-                let pickedBooks = UserSettings.userBooks
+                let pickedBooks = UserSettings.userBooks.map { (book) in
+                    return book.representation
+                }
                 
                 do {
                     let dict: [String: Any] = ["books": pickedBooks]
