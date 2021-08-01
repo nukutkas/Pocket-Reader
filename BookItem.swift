@@ -53,6 +53,22 @@ class BookItem: NSObject, NSCoding {
         self.imageName = imageName
     }
     
+    //init?(data: [String]: Any)
+    
+    var representation: [String: Any] {
+        let rep: [String: Any] = [
+            "name": name,
+            "genre": genre.rawValue,
+            "author": author,
+            "edition": edition,
+            "pages": pages,
+            "bookDescription": bookDescription,
+            "imageName": imageName
+        ]
+        return rep
+    }
+    
+    
     func encode(with coder: NSCoder) {
         coder.encode(name, forKey: "name")
         coder.encode(genre.rawValue, forKey:"genre")
