@@ -14,6 +14,5 @@ class MyBookRowController: NSObject {
             nameLabel.setText(book.name)
         }
     }
-    
     @IBOutlet weak var nameLabel: WKInterfaceLabel!
 }
